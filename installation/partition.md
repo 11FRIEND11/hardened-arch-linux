@@ -13,7 +13,9 @@ We need to create two partitions:
 
 ### Open the Partition Tool
 Run the following command:
+```console
 cfdisk /dev/sda
+```
 
 What it does:
 
@@ -38,9 +40,9 @@ Once partitions are created, we need to format them.
 Format the EFI Partition (sda1)
 
 Run:
-
+```console
 mkfs.fat -F32 /dev/sda1
-
+```
 What it does:
 
 Formats /dev/sda1 as FAT32, which is required for UEFI boot.
@@ -48,9 +50,9 @@ Formats /dev/sda1 as FAT32, which is required for UEFI boot.
 Format the Root Partition (sda2)
 
 Run:
-
+```console
 mkfs.ext4 /dev/sda2
-
+```
 What it does:
 
 Formats /dev/sda2 as ext4, a common Linux filesystem.
@@ -62,9 +64,9 @@ Now, we mount these partitions so we can install Arch Linux.
 ### Mount the Root Partition (sda2)
 
 Run:
-
+```console
 mount /dev/sda2 /mnt
-
+```
 What it does
 
 Mounts the root partition (sda2) to /mnt.
@@ -74,9 +76,9 @@ This will act as the main filesystem for the new OS.
 Mount the EFI Partition (sda1)
 
 Run:
-
+```console
 mkdir -p /mnt/boot
-
+```
 mount /dev/sda1 /mnt/boot
 
 What it does:
@@ -88,15 +90,15 @@ mount /dev/sda1 /mnt/boot → Mounts the EFI partition to /boot.
 ## Step 4: Verify Everything
 
 Run:
-
+```console
 lsblk
-
+```
 Expected Output:
+```console
 sda      
 ├─sda1    512M  part  /mnt/boot 
-
 └─sda2    49.5G part  /mnt 
-
+```
 What it does:
 
 lsblk shows all disks and partitions along with their mount points.
