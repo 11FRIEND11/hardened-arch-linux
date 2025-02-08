@@ -12,8 +12,9 @@ We will be using **Oracle VM VirtualBox** as our hypervisor.
 1. Go to [www.virtualbox.org](https://www.virtualbox.org)  
 2. Under **VirtualBox Platform Packages**, select the version for your OS (Windows, macOS, Linux).  
 3. After it is downloaded, click the `.exe` (Windows) or equivalent installer to install it on your computer.  
-4. Download the **Extension Pack** from their website for better compatibility and features.  
-my current version: 7.1.4 r165100 (Qt6.5.3)
+4. Download the **Extension Pack** from their website for better compatibility and features.
+  
+My current version: 7.1.4 r165100 (Qt6.5.3)
 **Recommended Reading:**  
 [Hypervisor - Wikipedia](https://en.wikipedia.org/wiki/Hypervisor)  
 
