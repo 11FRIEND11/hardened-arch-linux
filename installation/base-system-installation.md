@@ -24,7 +24,9 @@ The total size of the installation is around 500MB–1GB. Will take around 5-10 
 ## Installing the Base System
 
 ### Run the following command to install the base system:
-> pacstrap /mnt base linux linux-firmware
+```console
+pacstrap /mnt base linux linux-firmware
+```
 
 ### What This Command Does
 The pacstrap command installs packages onto a mounted system.
@@ -43,8 +45,9 @@ Once the installation is complete, Arch Linux is now technically installed, but 
 
 After installing the base system, we need to generate the fstab file, which keeps track of disk partitions and mount points.
 ### Run the following command:
-> genfstab -U /mnt >> /mnt/etc/fstab
-
+```console
+ genfstab -U /mnt >> /mnt/etc/fstab
+``` 
 ### What This Command Does
 
 genfstab -U /mnt generates an fstab file with UUIDs (Universally Unique Identifiers) for partitions.
@@ -53,7 +56,9 @@ genfstab -U /mnt generates an fstab file with UUIDs (Universally Unique Identifi
 
 ### To verify that fstab was created correctly, run:
 
-> cat /mnt/etc/fstab
+```console
+cat /mnt/etc/fstab
+```
 
 This will display the contents of the fstab file. If everything looks correct, we can move on to configuring the system.
 
