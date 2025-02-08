@@ -1,15 +1,28 @@
-# Hardened Arch Linux  
+# Hardened Arch Linux  (On a virtual machine)
 
-## Welcome to My Arch Journey
+## Welcome to My Arch Journey  
 
 Hello, I am **11FRIEND11**, and this repository is where I document my journey of transforming vanilla Arch Linux into the **ultimate hacking OS**.  
 
-I've used **Kali** and **Parrot** before, but after a while, they felt too boring. I wanted something that was truly **my own**—built from the ground up, customized exactly the way I like it. And what better OS to take on this challenge than **Arch Linux**?  
+I've used **Kali** and **Parrot** before, but after a while, they felt kinda plain. I wanted something that was truly **my own**, built from the ground up, customized exactly the way I like it. And i decided to use **Arch Linux** for this.
 
-Arch has a reputation for being **one of the hardest OSes to master**, and I’m here to give it a try while sharing everything I learn along the way. If you’re also looking to craft your own personal hacking distro, this repo might be helpful.  
+## **Why Arch and Not Linux From Scratch (LFS)?**  
+My goal was to create **Linux from scratch**, but going straight to LFS felt like **jumping off a cliff without a parachute**. Arch, on the other hand, sits in the perfect middle ground—  
+✅ Harder than beginner-friendly distros like Kali & Parrot  
+✅ Easier than extreme builds like LFS  
+✅ Gives full control while still having a package manager (**pacman**)  
 
-## A Funny Thing About Arch Users...  
-You know you’ve met an Arch user when—no matter the situation—they will let you know they use Arch. Even at your **grandmother’s funeral**, they'll lean in and whisper:  
-> *"btw, I use Arch."*  
+With Arch, I get to **customize everything from scratch** while still having enough structure to make things work without spending a lifetime configuring every single package manually.  
 
-Stay tuned for updates as I set up **Hardened Arch Linux!**  
+## **Project Goals 🏆**  
+✅ Install Arch Linux in **VirtualBox** and document every step  
+✅ Set up a **lightweight but powerful** hacking environment  
+✅ Install and categorize **hacking tools** (Recon, Exploitation, Password Cracking, etc.)  
+✅ Apply **security and privacy hardening**  
+✅ Make the system **look and feel amazing**  
+
+## **A Well Known And Funny Thing About Arch Users...**  
+You know you’ve met an Arch user when—no matter the situation,they will let you know they use Arch. Even at your **grandmother’s funeral**, they'll lean in and whisper:  
+> *"I use Arch btw."*  
+
+Stay tuned for updates as I build **Hardened Arch Linux!**  
