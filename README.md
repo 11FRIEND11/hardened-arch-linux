@@ -1,6 +1,6 @@
 # Hardened Arch Linux  
 
-## Welcome to My Arch Journey 😤
+## Welcome to My Arch Journey
 
 Hello, I am **11FRIEND11**, and this repository is where I document my journey of transforming vanilla Arch Linux into the **ultimate hacking OS**.  
 
