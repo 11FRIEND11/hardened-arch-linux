@@ -19,7 +19,7 @@ Since these packages are not included in the mounted partitions, we download and
 You must have an active internet connection because the packages will be downloaded from Arch Linux repositories.
 This process may take 5–10 minutes, depending on your internet speed.
 
-The total size of the installation is around 500MB–1GB.
+The total size of the installation is around 500MB–1GB. Will take around 5-10 minutes to download. Might take less or more depending on your connection.
 
 ## Installing the Base System
 
