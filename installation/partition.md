@@ -83,10 +83,10 @@ sda
 ├─sda1    512M  part  /mnt/boot 
 └─sda2    49.5G part  /mnt 
 ```
-What it does:
-
 lsblk shows all disks and partitions along with their mount points.
 If you see /mnt for sda2 and /mnt/boot for sda1, everything is correct.
+If not, then the steps were not followed correctly.
+In case the steps were followed correctly and still this dosent work, make sure to contact me regarding this, not just in this step but all the steps
 
 # Next Step: Installing the Base System!
 
