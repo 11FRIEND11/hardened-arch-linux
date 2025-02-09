@@ -34,6 +34,8 @@ Now that we have downloaded the Arch Linux ISO and installed VirtualBox, it's ti
 4. Select the **Arch Linux ISO** that you downloaded earlier.
 5. Press **OK** to save changes.
 
+## EFI
+we will be using EFI so navigate to settings > system> motherboard and enable EFI
 ---
 
 ## **4️ Launching the Virtual Machine**
