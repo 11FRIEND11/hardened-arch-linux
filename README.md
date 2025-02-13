@@ -1,3 +1,10 @@
+# This repository is still under development and is currently on hold, this is not a complete guide.
+
+
+
+
+
+
 # Hardened Arch Linux  (On a virtual machine)
 
 ## Welcome to My Arch Journey  
