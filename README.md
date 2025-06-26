@@ -21,7 +21,7 @@ My goal was to create **Linux from scratch**, but going straight to LFS felt lik
 
 With Arch, I get to **customize everything from scratch** while still having enough structure to make things work without spending a lifetime configuring every single package manually.  
 
-## **Project Goals 🏆**  
+## **Project Goals   
  Install Arch Linux in **VirtualBox** and document every step  
  Set up a **lightweight but powerful** hacking environment  
  Install and categorize **hacking tools** (Recon, Exploitation, Password Cracking, etc.)  
